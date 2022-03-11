@@ -33,7 +33,12 @@ namespace ControleEstoque
             produto.Name = txtName.Text;
             produto.Cody = Convert.ToInt16(txtCody.Text);
             produto.Inventory = Convert.ToInt16(txtInventory.Text);
-            Console.WriteLine(produto);
+
 ;       }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
